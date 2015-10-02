@@ -1,4 +1,18 @@
 ---
+The official guide does not use jQuery in order to keep things simple and the focus on the Web Socket guide.
+This is my personal repository fork of this repository. I added jQuery in order to have the web client properly developed.
+Now, under resources you will find the following:
+resources   
+ --> static
+    --> ext
+        --> jquery-2.1.4.js
+        --> sockjs-0.3.4.js
+        --> stomp.js
+    --> index.html
+    --> index.js
+
+So, all external javascript libraries can be found under the ext directory.    
+---
 tags: [messaging, websocket, stomp]
 projects: [spring-framework]
 ---
